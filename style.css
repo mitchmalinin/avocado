@@ -92,7 +92,8 @@ ul li {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("img/avo.jpeg");
+  background-image: url("img/fork.jpg");
+  background-size: cover;
 }
 
 .what-comes-with {
@@ -161,9 +162,13 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: black;
+  padding: 50px 0;
 }
 
 .testimonial {
+  background: white;
+  margin: 0 20px;
   display: flex;
   flex-direction: column;
   text-align: center;
