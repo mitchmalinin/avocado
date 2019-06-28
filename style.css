@@ -1,0 +1,174 @@
+@font-face {
+  font-family: AvocadoReg;
+  src: url(fonts/edmondsans-regular.otf);
+}
+
+@font-face {
+  font-family: AvocadoMed;
+  src: url(fonts/edmondsans-medium.otf);
+}
+
+@font-face {
+  font-family: AvocadoBold;
+  src: url(fonts/edmondsans-bold.otf);
+}
+
+
+body {
+  font-family: AvocadoReg;
+  margin: 0;
+  padding: 0;
+  /* background-color: red; */
+  background: black;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  display: flex;
+  /* float: right; */
+  /* text-align: right; */
+}
+
+nav {
+  background: #060606;
+  display: flex;
+  padding-right: 30px;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+
+nav h1 {
+  padding: 30px;
+}
+
+ul li {
+  /* text-decoration: none; */
+  list-style: none;
+  padding: 20px;
+
+}
+
+.hero-text {
+  padding-top: 100px;
+  margin: 0;
+  font-size: 40px;
+}
+
+
+.hero-section {
+  background-image: url("img/avo.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  height: 800px;
+  text-align: center;
+}
+
+.what-comes-with {
+  height: 300px;
+  text-align: center;
+  color: black;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.what-comes-with h1 {
+  margin: 0;
+  padding: 1em 0;
+}
+
+.avo-img {
+  width: 500px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("img/avo.jpeg");
+}
+
+.what-comes-with {
+  padding: 0 100px;
+}
+
+.what-comes-with h2 {
+  font-size: 3rem;
+}
+
+.fork-text {
+  width: 40%;
+  margin-left: 20px;
+}
+
+img {
+  height: 200px;
+}
+
+.purchase {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  margin: 20px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.people {
+  display: flex;
+  justify-content: center;
+}
+
+.people-imgs {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  /* background-color: aqua; */
+  /* background-image: url("img/avo.jpeg"); */
+  /* align-self: center; */
+  border-radius: 50%;
+  background-size: cover;
+  /* height: 100px; */
+}
+
+.people1 {
+  background-image: url(img/people1.jpg);
+}
+
+.people2 {
+  background-image: url(img/people2.jpg);
+}
+
+.people3 {
+  background-image: url(img/people3.jpg);
+}
+
+.testimonials-section {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+
+}
