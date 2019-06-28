@@ -43,7 +43,8 @@ nav {
 }
 
 nav h1 {
-  padding: 30px;
+  padding: 10px 0 0 30px;
+  font-size: 3rem;
 }
 
 ul li {
