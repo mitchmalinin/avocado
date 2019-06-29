@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: AvocadoReg;
   src: url(fonts/edmondsans-regular.otf);
 }
@@ -11,14 +11,18 @@
 @font-face {
   font-family: AvocadoBold;
   src: url(fonts/edmondsans-bold.otf);
-}
+} */
 
+@import url("https://fonts.googleapis.com/css?family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
 
 body {
-  font-family: AvocadoReg;
   margin: 0;
   padding: 0;
   /* background-color: red; */
+
+  font-family: "Playfair Display", serif;
+  /* font-family: AvocadoReg; */
   background: black;
   color: white;
 }
@@ -35,40 +39,41 @@ ul {
 }
 
 nav {
-  background: #060606;
+  background-color: transparent;
   display: flex;
-  padding-right: 30px;
+  padding: 20px 50px;
   justify-content: space-between;
-  /* background-color: red; */
+  align-items: center;
 }
 
 nav h1 {
-  padding: 10px 0 0 30px;
-  font-size: 3rem;
+  font-size: 5rem;
+  margin: 0;
+  font-family: "Yeseva One", cursive;
 }
 
 ul li {
   /* text-decoration: none; */
   list-style: none;
-  padding: 20px;
-
+  padding: 0 10px;
+  font-size: 1.5em;
 }
 
 .hero-text {
   padding-top: 100px;
   margin: 0;
   font-size: 40px;
+  /* font-family: "Yeseva One", cursive; */
 }
 
-
 .hero-section {
-  background-image: url("img/avo.jpeg");
+  background-image: url("img/avo-small.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
-  height: 800px;
+  height: 100vh;
   text-align: center;
 }
 
@@ -95,19 +100,24 @@ ul li {
   background-repeat: no-repeat;
   background-image: url("img/fork.jpg");
   background-size: cover;
+  /* border-radius: 10px; */
+  box-shadow: 0px 5px 10px #888888;
 }
 
 .what-comes-with {
-  padding: 0 100px;
+  padding: 30px 60px;
 }
 
 .what-comes-with h2 {
   font-size: 3rem;
+  font-family: "Yeseva One", cursive;
+  color: #dcb861;
 }
 
 .fork-text {
-  width: 40%;
-  margin-left: 20px;
+  /* width: 35%; */
+  margin-left: 50px;
+  text-align: left;
 }
 
 img {
@@ -120,7 +130,7 @@ img {
 
 .row {
   display: flex;
-  margin: 20px 0;
+  margin: 50px 0;
 }
 
 .container {
@@ -148,14 +158,20 @@ img {
 
 .people1 {
   background-image: url(img/people1.jpg);
+  background-position: center;
+  box-shadow: 0px 5px 10px #888888;
 }
 
 .people2 {
   background-image: url(img/people2.jpg);
+  background-position: center;
+  box-shadow: 0px 5px 10px #888888;
 }
 
 .people3 {
   background-image: url(img/people3.jpg);
+  background-position: center;
+  box-shadow: 0px 5px 10px #888888;
 }
 
 .testimonials-section {
@@ -164,7 +180,7 @@ img {
   flex-direction: column;
   align-items: center;
   color: black;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 .testimonial {
@@ -176,5 +192,46 @@ img {
   justify-content: center;
   align-items: center;
   width: 20%;
+  padding: 20px;
+  border-radius: 20px;
+}
 
+.testimonials-section h4 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-family: "Yeseva One", cursive;
+}
+
+.purchase {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 70px 0;
+}
+.container-locations {
+  text-align: left;
+  color: black;
+  font-size: 25px;
+}
+
+.container-locations h2 {
+  color: #dcb861;
+  font-family: "Yeseva One", cursive;
+  font-size: 40px;
+}
+
+.footer {
+  height: 200px;
+  text-align: center;
+  font-size: 30px;
+  padding: 100px 0;
+}
+
+.footer .end {
+  font-family: "Yeseva One", cursive;
+}
+
+.end-links {
+  font-size: 10px;
 }
